@@ -4,9 +4,32 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .container{
-    width:500px;
+    width:100%;
     margin: 0 auto;
 }
 header{
     background-color: rgb(55, 186, 226);
+    padding: 10px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+nav ul li{
+    width: 30%;
+    text-align: center;
+    padding: 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    cursor: pointer;
+    color:#fff;
+    font-weight: bold;
+    
+}
+nav ul li:hover{
+    background-color: rgb(20, 89, 136);
 }
