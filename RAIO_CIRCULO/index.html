@@ -11,31 +11,35 @@
 <body>
     <header>
         <div class="container">
-            <nav>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="conteudo">Conteudo</a></li>
-                    <li><a href="contato">Contato</a></li>
-                </ul>
-            </nav>
+            <h3>Calculo exato</h3>
         </div>
     </header>
         
-        <div class="container">
-            <h3 class="pergunta">Escreva um programa que pede o raio de um círculo, e em seguida exiba o perímetro e área do círculo</h3>
-            <hr>
-        </div>
-    
     <main>
         <div class="container">
-            <span>Digite o raio de um circulo:</span><br>
-            <input type="text" id="raio"><br>
-            <button onclick="res()">Calcular</button>
+            <div class="operacoes">
+                    <span>Digite o raio de um circulo:</span>
+                    <input type="number" id="raio"><br>
+                    <button onclick="perimetro()">Calcular</button>
 
-            <div class="resposta">
-                <p>Seu perimetro é de: <h4 id="resposta"></h4></p>
+                <div class="resultado-p">
+                    <p>Perimetro:</p>
+                    <div id="resultado">00</div>
+                </div>
+                <div class="resultado-a">
+                    <p>Area:</p>
+                    <div id="resultadoA">00</div>
+                </div>
             </div>
+            
+            
         </div>
     </main>
+
+    <footer>
+        <div class="container">
+            <h4>Desenvolvido por: <strong>Marcelo Correa</strong></h4>
+        </div>
+    </footer>
 </body>
 </html>
